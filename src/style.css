@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:wght@100;500;800&family=Montserrat+Alternates:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Poppins:wght@200;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #23252c;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  background-color: #1a1b21;
+}
+
+img {
+  width: 60%;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px
+}
+
+.author-name {
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 25px;
+}
+
+.author-spec {
+  font-size: 20px;
+  color: #f3bf99;
+  margin-bottom: 20px;
+}
+
+.author-website {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.btn-container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 18px 20px;
+  font-size: 27px;
+  width: 48%;
+  border-radius: 5px
+}
+
+a {
+  text-decoration: none;
+}
+
+.email {
+  display: flex;
+  background-color: #fff;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkedin {
+  display: flex;
+  background-color: #5093e2;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio {
+  text-align: left;
+}
+
+.bio-subhead {
+  padding: 0 30px;
+  font-size: 28px;
+  margin: 25px 0;
+}
+
+.bio-text {
+  padding: 0 30px;
+  margin: 5px 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #161619;
+  color: gray;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: auto;
+  display: flex;
+  padding: 40px 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-flex {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  width: 60%
+}
+
+.footer-flex > a {
+  color: gray;
+}
